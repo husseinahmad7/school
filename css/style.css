@@ -1,0 +1,39 @@
+body{
+  background-color: #eee;
+}
+form {
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: -3px 7px 10px 0px rgb(0 0 0 / 10%);
+  }
+  input {
+    width: 100%;
+    display: block;
+    padding: 5px 10px;
+  }
+  button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .insert-form{
+      width: 75%;
+      margin-top: 5%;
+  }
+  .updateForm{
+    width: 75%;
+    margin-top: 3%;
+  }
+  h3{
+    margin-left: auto;
+  }
+  .nav-link{
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+  }
+  

@@ -1,0 +1,286 @@
+body{
+    background-color: #eee;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 290px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto 20px 65px auto;
+    grid-gap: 10px;
+    border-radius: 25px;
+    box-shadow: -3px 7px 10px 0px rgb(0 0 0 / 10%);
+    background-color: #fff;
+
+}
+
+.songs div.gallery{
+    grid-template-rows: auto auto auto 40px auto;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    background-color: azure;
+    transition: background-color 0.2s ease-in-out;
+}
+
+div.gallery img {
+    width: inherit;
+    padding-right: 2px;
+    height: 330px;
+    border-radius: 25px 25px 4px 4px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div button {
+    margin-left: auto;
+    background-color: #786853;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+   /* color: rgb(153, 248, 255) !important;*/
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.hidden {
+    display: none;
+}
+.btnwrapper{
+    grid-column: 1/4;
+    grid-row:5/6;
+    justify-content: space-around;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.books {
+    grid-column: 1/5;
+}
+
+.songs {
+    grid-column: 1/5;
+}
+
+.videos {
+    grid-column: 1/5;
+}
+video[poster]{
+    object-fit: contain;
+}
+
+.videos .btnwrapper{
+    margin-left: 3.2%;
+}
+
+img {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+.title {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    justify-self: center;
+}
+
+.desc {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    justify-self: center;
+}
+
+audio {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.songs .title {
+    grid-row: 4/5;
+}
+
+.songs .desc {
+    display: none;
+}
+.videos div.gallery{
+ width: 48%;
+}
+video {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    object-fit: fill;
+}
+.videos .title{
+    grid-row: 4/5;
+}
+.btn{
+    border-radius: 15px;
+}
+.btn-success{
+    width: 69%;
+    height: 35%;
+}
+.btn-danger{
+    width: 69%;
+    height: 35%;
+
+}
+.btn-warning{
+    width: 69%;
+    height: 35%;
+    color: #fff;
+}
+.videos div.gallery .btn-success{
+    width: 50%;
+    height: 30%;
+}
+.videos div.gallery .btn-warning{
+    width: 50%;
+    height: 30%;
+}
+.videos div.gallery .btn-danger{
+    width: 50%;
+    height: 30%;
+}
+
+button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+opacity: 0.9;
+}
+
+button:hover {
+opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+float: left;
+width: 100%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+background-color: #ccc;
+color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+padding: 16px;
+text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgba(0, 0, 0, 0.5);
+padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border: 1px solid #888;
+width: 60%; /* Could be more or less, depending on screen size */
+border-radius: 15px;
+}
+
+/* Style the horizontal ruler */
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+position: absolute;
+right: 35px;
+top: 15px;
+font-size: 40px;
+font-weight: bold;
+color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+color: #f44336;
+cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+.clearfix{
+justify-content: center;
+}
+#sidebarToggle{
+    width:20px;
+}
+body{
+    height: auto;
+}
+.btn-link{
+    margin-left:0;
+}
+.insertbtn{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+}
+.insertbtn a{
+ font-size: 20px;
+ color: #fff!important;
+}
+.videos div.gallery{
+    grid-template-rows: auto auto 20px 35px auto;
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-link{
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
