@@ -66,17 +66,10 @@
                                 <h3>
                                     بإدارة متألقة
                                 </h3><br>
-                                <h4>Mgd Aldean Shoman
-
-                                mgd_127853</h4><br>
-                                <h4>Mohammad_anas_139142
-
-                                Mohammad Anas Awata</h4><br>
-                                <h4>Alaa Shoshara
-                                Alaa_121600</h4><br>
+                                
                                 <h4>
-                                    hussein ahmad
-                                    hussein_148792
+                                    Hussein ahmad
+                                    
                                 </h4>
                             </div>
                             <div class="footer-text mb-25">
@@ -85,8 +78,8 @@
 
                                 </p>
                                 <p>
-                                    +963982489354
-                                info@svh-lib.sy
+                                    <a href="tel:+963982489354">+963982489354</a>
+                                <a href="paradome.pythonanywhere.com">my portfolio</a>
                                 </p>
                                 <p>
                                                  من الإثنين إلى الخميس
